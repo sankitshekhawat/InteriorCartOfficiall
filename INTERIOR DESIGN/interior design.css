@@ -1,0 +1,44 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Poppins', sans-serif;
+}
+
+main h2 {
+    background-color: #154734;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.gallery-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-overlay.active {
+    display: flex;
+}
+
+.modal-overlay img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}

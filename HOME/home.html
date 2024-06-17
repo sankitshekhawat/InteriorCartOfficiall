@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTERIOR CART & TECHNOLOGIES</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+body>
+    <header>
+        <a href="#" class="logo">INTERIOR CART</a>
+
+
+        <ul class="navlist">
+            <li><a href="/INTERIOR DESIGN/interiordesign.html">INTERIOR DESIGN</a></li>
+            <li><a href="/GALLERY/gallery.html">GALLERY</a></li>
+            <li><a href="/SERVICE/service.html">SERVICES</a></li>
+            <li><a href="/CONTACT/contact.html">CONTACT</a></li>
+            <li><a href="/ABOUT AS/about.html">ABOUT US</a></li>
+        </ul>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Welcome</h2>
+            <h3>To The Future with</h3>
+            <h1>Interior Cart</h1>
+
+            <p>Welcome to the future of living: a connected home where automation and convenience converge, empowering you to control your environment with a simple touch or voice command. Experience the seamless integration of intelligent devices, making
+                your life smarter, safer, and more comfortable.</p>
+            <a href="/HOME AUTOMATION/home automatio.html">Home Automation</a>
+            <button class="open-button" onclick="openForm()">ENQUIRY FROM<i class="ri-arrow-right-circle-line"></i></button>
+
+            <div class="contact-form-popup" id="contactForm">
+                <form action="connect.php" method="post">
+                    <h2><img src="/INTRIOR-removebg-preview.png" alt="" width="200px"></h2>
+                    <label for="name">Name</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                   
+                     <label for="name">Phone Number</label>
+                   
+                    <input type="text" id="Number" name="Number" required>
+                   
+                    <label for="email">Email</label>
+                   
+                    <input type="email" id="email" name="email" required>
+                   
+                    <label for="message">Message</label>
+                   
+                    <textarea id="message" name="message" required></textarea>
+                   
+                    <button type="submit" class="submit-button">Send</button>
+                   
+                    <button type="button" class="close-button" onclick="closeForm()">Close</button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="hero-img">
+            <img src="/INTERIOR CART IMAGE/HOME/A1.png" alt="">
+        </div>
+    </section>
+
+    <div class="icons">
+
+        <a href="https://instagram.com/interior_cart?igshid=MzNlNGNkZWQ4Mg=="><i class="ri-instagram-line"></i> </a>
+
+        <a href="https://www.youtube.com/@interiorcart14"><i class="ri-youtube-line"></i></a>
+
+        <a href="https://www.facebook.com/profile.php?id=100091480088491"><i class="ri-facebook-box-line"></i></a>
+    </div>
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="home.js"></script>
+</body>
+
+</html>
